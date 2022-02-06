@@ -1,0 +1,42 @@
+body {
+    background-color: #ebeef3;
+    font-family: 'Roboto', sans-serif;
+}
+
+.navbar {
+    font-family: 'Aladin', cursive;
+    text-align: center;
+    color: #000000;
+}
+
+.navbar-brand {
+    font-size: 2.2em;
+    color: #4176e2;
+    text-decoration: none;
+}
+
+#calendar,
+#calendar th,
+#calendar tr,
+#calendar td {
+    border: none;
+}
+
+#calendar td {
+    /* border: 1px solid #dcdfe3; */
+}
+
+#calendar-head tr th {
+    background-color: #d45535;
+    border-bottom: 1px solid #d45535;
+    color: #FFF;
+}
+
+#calendar-body td.cell {
+    border: 1px solid #dcdfe3;
+}
+
+td.event {
+    border-left: 4px solid #3669cf !important;
+    background-color: #99b6f1;
+}
