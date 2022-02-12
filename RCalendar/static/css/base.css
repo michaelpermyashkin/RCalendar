@@ -1,18 +1,39 @@
 body {
-    background-color: #ebeef3;
+    background-color: #E8EEF1;
     font-family: 'Roboto', sans-serif;
 }
 
-.navbar {
+#landing {
     font-family: 'Aladin', cursive;
+    background-color: #192127;
+    color: #ebeef3;
+}
+
+.navbar {
     text-align: center;
     color: #000000;
 }
 
 .navbar-brand {
     font-size: 2.2em;
-    color: #4176e2;
+    color: #ebeef3;
     text-decoration: none;
+}
+
+.container {}
+
+#calendar-wrapper {
+    max-width: 800px;
+}
+
+#month-summary {
+    border: 1px solid #dcdfe3;
+    background-color: #e0e6ef;
+    box-shadow: 0 0.5rem 1rem 0 rgba(0, 0, 0, 0.1);
+}
+
+#calendar {
+    box-shadow: 0 0.5rem 1rem 0 rgba(0, 0, 0, 0.1);
 }
 
 #calendar,
@@ -23,20 +44,22 @@ body {
 }
 
 #calendar td {
-    /* border: 1px solid #dcdfe3; */
+    border: 1px solid #dcdfe3;
+    background-color: #e1e5ea;
 }
 
 #calendar-head tr th {
-    background-color: #d45535;
-    border-bottom: 1px solid #d45535;
+    background-color: #e06c4f;
+    border-bottom: 1px solid #e06c4f;
     color: #FFF;
 }
 
 #calendar-body td.cell {
-    border: 1px solid #dcdfe3;
+    background-color: #e6ebf3;
 }
 
-td.event {
-    border-left: 4px solid #3669cf !important;
-    background-color: #99b6f1;
+#calendar td.event {
+    /* border: 1px solid #a1bcf1; */
+    border-left: 4px solid #648fe5 !important;
+    background-color: #d5dff3 !important;
 }
