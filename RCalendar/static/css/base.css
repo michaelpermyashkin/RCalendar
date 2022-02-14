@@ -1,26 +1,58 @@
+:root {
+    --primary: #192127;
+    --primary-hover: #202c34;
+    --secondary: #e06c4f;
+    --secondary-hover: #ec7355;
+    --light: #e8eef1;
+    --light-hover: #e8eef1;
+}
+
+html,
 body {
-    background-color: #E8EEF1;
+    padding: 0;
+    margin: 0;
+    scroll-behavior: smooth;
+}
+
+body * {
+    transition: 0.1s;
+}
+
+body {
+    background-color: var(--light);
     font-family: 'Roboto', sans-serif;
 }
 
 #landing {
     font-family: 'Aladin', cursive;
-    background-color: #192127;
-    color: #ebeef3;
+    background-color: var(--primary);
+    color: var(--light);
 }
 
 .navbar {
     text-align: center;
-    color: #000000;
 }
 
 .navbar-brand {
     font-size: 2.2em;
-    color: #ebeef3;
-    text-decoration: none;
+    color: var(--light);
+    text-decoration: none !important;
 }
 
-.container {}
+#menu-tabs .nav-item .nav-link {
+    text-decoration: none;
+    color: var(--light);
+    border-radius: 7px 7px 0px 0px;
+}
+
+#menu-tabs .nav-item .nav-link:hover {
+    background-color: var(--primary-hover);
+}
+
+#menu-tabs .nav-item .active {
+    background-color: var(--light) !important;
+    color: var(--primary) !important;
+}
 
 #calendar-wrapper {
     max-width: 800px;
